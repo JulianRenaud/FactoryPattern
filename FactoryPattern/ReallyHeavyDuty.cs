@@ -4,16 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FactoryPattern.NewFolder
+namespace FactoryPattern.Vehicles
 {
-    internal class Motorcycle : IVehicle
+    internal class ReallyHeavyDuty : IVehicle
     {
-
-
         public void Drive()
         {
             Console.WriteLine();
-            Console.Write("Building a new motorcycle .");
+            Console.Write("Building a new really heavy duty vehicle .");
         }
     }
 }

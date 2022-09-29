@@ -6,14 +6,12 @@ using System.Threading.Tasks;
 
 namespace FactoryPattern.NewFolder
 {
-    internal class Motorcycle : IVehicle
+    internal class PickUp : IVehicle
     {
-
-
         public void Drive()
         {
             Console.WriteLine();
-            Console.Write("Building a new motorcycle .");
+            Console.Write("Building a new pick up vehicle .");
         }
     }
 }

@@ -12,5 +12,10 @@ namespace FactoryPattern
         {
             
         }
+        public void Built()
+        {
+            Console.WriteLine();
+            Console.WriteLine("Successfully Built!");
+        }
     }
 }
